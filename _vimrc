@@ -202,6 +202,7 @@ inoremap <a-r> <ESC><c-r>a
 inoremap <a-l> <ESC>wa
 inoremap <a-h> <ESC>ba
 inoremap <a-f> <ESC>:w<cr>a
+inoremap <a-o> <ESC>gkJa
 
 "映射长行上下移动快捷键
 nmap j gj
@@ -263,4 +264,4 @@ function! InsertHtmlTag()
         endif
         :call cursor(save_cursor[1], save_cursor[2], save_cursor[3])
 endfunction
-		inoremap > <ESC>:call InsertHtmlTag()<CR>a
+		inoremap > <ESC>:call InsertHtmlTag()<CR>a 
