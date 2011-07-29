@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='F:/xampp/htdocs/system'
+let g:netrw_dirhist_2='F:/xampp/htdocs/system/helpers'
+let g:netrw_dirhist_3='f:/xampp/htdocs/admin/template'
+let g:netrw_dirhist_4='c:/Users/Cage'
