@@ -186,7 +186,7 @@ inoremap <a-c>{ <ESC>ci{
 inoremap <a-c>[ <ESC>ci[
 inoremap <a-c>( <ESC>ci(
 inoremap <a-y> <ESC>yi
-inoremap <a-y>l <ESC>yy
+inoremap <a-y>l <ESC>yyO
 inoremap <a-y>w <ESC>yiw
 inoremap <a-y>t <ESC>yit
 inoremap <a-y>< <ESC>yi<
@@ -203,6 +203,8 @@ inoremap <a-l> <ESC>wa
 inoremap <a-h> <ESC>ba
 inoremap <a-f> <ESC>:w<cr>a
 inoremap <a-o> <ESC>gkJa
+inoremap <a-m> <ESC>ld$a
+inoremap <a-n> <ESC>ld^i
 
 "映射长行上下移动快捷键
 nmap j gj
