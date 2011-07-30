@@ -186,7 +186,7 @@ inoremap <a-c>{ <ESC>ci{
 inoremap <a-c>[ <ESC>ci[
 inoremap <a-c>( <ESC>ci(
 inoremap <a-y> <ESC>yi
-inoremap <a-y>l <ESC>yyO
+inoremap <a-y>l <ESC>yyo
 inoremap <a-y>w <ESC>yiw
 inoremap <a-y>t <ESC>yit
 inoremap <a-y>< <ESC>yi<
