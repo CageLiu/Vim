@@ -65,8 +65,8 @@ set shiftwidth=4
 "set autoindent
 
 "自动识别文件类型
-"filetype on
-"filetype plugin on
+filetype on
+filetype plugin on
 filetype plugin indent on
 
 "在状态栏显示目前所执行的指令，未完成的指令片段也会显示出来
