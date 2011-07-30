@@ -65,8 +65,8 @@ set shiftwidth=4
 "set autoindent
 
 "自动识别文件类型
-filetype on
-filetype plugin on
+"filetype on
+"filetype plugin on
 filetype plugin indent on
 
 "在状态栏显示目前所执行的指令，未完成的指令片段也会显示出来
@@ -225,10 +225,9 @@ let html_use_css=1
 
 " 设置字典 ~/.vim/dict/文件的路径
 autocmd filetype javascript set dictionary=F:/Vim/dict/javascript.dict
-autocmd filetype css set dictionary=F:/Vim/dict/css.dict
 autocmd filetype php set dictionary=F:/Vim/dict/php.dict
 autocmd filetype html set dictionary=F:/Vim/dict/html.dict
-"autocmd filetype php set dictionary=D:/Vim/dict/ci.dict
+autocmd filetype css set dictionary=F:/Vim/dict/css.dict
 
 
 "选中状态下 Ctrl+c 复制
