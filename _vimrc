@@ -27,7 +27,7 @@ autocmd! bufwritepost _vimrc source %
 "配色方案
 colorscheme slate
 color molokai
-set guifont=Consolas:h12
+set guifont=DejaVu\ Sans\ Mono:h11:cANSI
 
 "默认区分大小写
 set noignorecase
