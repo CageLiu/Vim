@@ -28,9 +28,9 @@ endif
 
 
 hi Boolean         guifg=#AE81FF
-hi Character       guifg=#E6DB74
+hi Character       guifg=#595CDF
 hi Number          guifg=#AE81FF
-hi String          guifg=#E6DB74
+hi String          guifg=#595CDF
 hi Conditional     guifg=#F92672               gui=none
 hi Constant        guifg=#AE81FF               gui=none
 hi Cursor          guifg=#000000 guibg=#F8F8F0
@@ -55,13 +55,13 @@ hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#F92672               gui=none
-hi Label           guifg=#E6DB74               gui=none
+hi Label           guifg=#595CDF               gui=none
 hi Macro           guifg=#C4BE89               gui=none
 hi SpecialKey      guifg=#66D9EF               gui=none
 
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=none
-hi ModeMsg         guifg=#E6DB74
-hi MoreMsg         guifg=#E6DB74
+hi ModeMsg         guifg=#595CDF
+hi MoreMsg         guifg=#595CDF
 hi Operator        guifg=#F92672
 
 " complete menu
@@ -98,7 +98,7 @@ hi Todo            guifg=#FFFFFF guibg=bg      gui=none
 
 hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
-hi Underlined      guifg=#808080               gui=underline
+hi Underlined      guifg=#888888               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=none
 hi VisualNOS                     guibg=#403D3D
@@ -114,7 +114,7 @@ if s:molokai_original == 1
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
    hi NonText         guifg=#BCBCBC guibg=#3B3A32
 else
-   hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
+   hi Normal          guifg=#F8F8F2 guibg=#111111
    hi Comment         guifg=#465457
    hi CursorLine                    guibg=#293739
    hi CursorColumn                  guibg=#293739

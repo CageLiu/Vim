@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='F:/xampp/htdocs/system'
-let g:netrw_dirhist_2='F:/xampp/htdocs/system/helpers'
-let g:netrw_dirhist_3='f:/xampp/htdocs/admin/template'
-let g:netrw_dirhist_4='c:/Users/Cage'
-let g:netrw_dirhist_5='//192.168.188.2/liufeng/www/phpcms/phpcms'
-let g:netrw_dirhist_6='//192.168.188.2/liufeng/www/phpcms/phpcms/templates'
-let g:netrw_dirhist_7='//192.168.188.2/liufeng/www/phpcms/phpcms/templates/test'
-let g:netrw_dirhist_8='//192.168.188.2/liufeng/www/phpcms/phpcms/templates/test/author'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='E:/xampp/htdocs/admin/static/js'
+let g:netrw_dirhist_2='f:/Msysgit/msysgit/etc'

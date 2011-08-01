@@ -27,7 +27,7 @@ autocmd! bufwritepost _vimrc source %
 "配色方案
 colorscheme slate
 color molokai
-set guifont=Consolas:h12
+set guifont=DejaVu\ Sans\ Mono:h11:cANSI
 
 "默认区分大小写
 set noignorecase
@@ -186,7 +186,7 @@ inoremap <a-c>{ <ESC>ci{
 inoremap <a-c>[ <ESC>ci[
 inoremap <a-c>( <ESC>ci(
 inoremap <a-y> <ESC>yi
-inoremap <a-y>l <ESC>yy
+inoremap <a-y>l <ESC>yyo
 inoremap <a-y>w <ESC>yiw
 inoremap <a-y>t <ESC>yit
 inoremap <a-y>< <ESC>yi<
@@ -202,6 +202,9 @@ inoremap <a-r> <ESC><c-r>a
 inoremap <a-l> <ESC>wa
 inoremap <a-h> <ESC>ba
 inoremap <a-f> <ESC>:w<cr>a
+inoremap <a-o> <ESC>gkJa
+inoremap <a-m> <ESC>ld$a
+inoremap <a-n> <ESC>ld^i
 
 "映射长行上下移动快捷键
 nmap j gj
@@ -224,10 +227,9 @@ let html_use_css=1
 
 " 设置字典 ~/.vim/dict/文件的路径
 autocmd filetype javascript set dictionary=F:/Vim/dict/javascript.dict
-autocmd filetype css set dictionary=F:/Vim/dict/css.dict
 autocmd filetype php set dictionary=F:/Vim/dict/php.dict
 autocmd filetype html set dictionary=F:/Vim/dict/html.dict
-"autocmd filetype php set dictionary=D:/Vim/dict/ci.dict
+autocmd filetype css set dictionary=F:/Vim/dict/css.dict
 
 
 "选中状态下 Ctrl+c 复制
@@ -263,4 +265,4 @@ function! InsertHtmlTag()
         endif
         :call cursor(save_cursor[1], save_cursor[2], save_cursor[3])
 endfunction
-		inoremap > <ESC>:call InsertHtmlTag()<CR>a
+		inoremap > <ESC>:call InsertHtmlTag()<CR>a 
