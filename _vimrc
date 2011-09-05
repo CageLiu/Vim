@@ -196,7 +196,7 @@ inoremap <a-y>{ <ESC>yi{
 inoremap <a-y>[ <ESC>yi[
 inoremap <a-y>( <ESC>yi(
 inoremap <a-p> <ESC>pa
-inoremap <a-g> <ESC>"+pa
+inoremap <a-v> <ESC>"+pa
 inoremap <a-u> <ESC>ua
 inoremap <a-r> <ESC><c-r>a
 inoremap <a-l> <ESC>wa
@@ -211,10 +211,10 @@ nmap j gj
 nmap k gk
 
 "改变窗口大小快捷键
-nmap <up> <C-w>+
-nmap <down> <C-w>-
-nmap <left> <C-w>>
-nmap <right> <C-w><
+nmap <up> <C-w>+10
+nmap <down> <C-w>-10
+nmap <left> <C-w>>10
+nmap <right> <C-w><10
 nmap <a-p> "+p
 
 "映射系统剪贴板的复制和粘贴
