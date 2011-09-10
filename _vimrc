@@ -18,6 +18,9 @@ language messages zh_CN.utf-8
 
 set ambiwidth=double
 
+
+
+
 "禁用vi兼容模式
 set nocompatible
 
