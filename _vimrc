@@ -38,6 +38,9 @@ set history =1000
 "设定在任何模式下鼠标都可用
 set mouse=
 
+
+
+
 "设定退格键和delete键
 set backspace=indent,eol,start
 
