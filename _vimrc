@@ -24,6 +24,11 @@ set nocompatible
 "让配置文件自动加载
 autocmd! bufwritepost _vimrc source %
 
+
+
+
+
+
 "配色方案
 colorscheme slate
 color molokai
