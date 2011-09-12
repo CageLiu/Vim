@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='E:/xampp/htdocs/admin/static/js'
 let g:netrw_dirhist_2='f:/Msysgit/msysgit/etc'
 let g:netrw_dirhist_3='//192.168.188.2/liufeng/www/phpcms/phpcms/templates/test/content'
 let g:netrw_dirhist_4='f:/Tools/xampp/htdocs/shark'
+let g:netrw_dirhist_5='e:/xampp/htdocs/shark'
+let g:netrw_dirhist_6='e:/xampp/htdocs/shark/static'
+let g:netrw_dirhist_7='e:/xampp/htdocs/shark/static/css'
+let g:netrw_dirhist_8='e:/xampp/htdocs/shark/static/css/admin'
